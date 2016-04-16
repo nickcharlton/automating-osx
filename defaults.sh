@@ -156,6 +156,15 @@ defaults write com.apple.DiskUtility DUDebugMenuEnabled -bool true
 defaults write com.apple.DiskUtility advanced-image-options -bool true
 
 #
+# Power Management
+#
+
+# disable display and normal sleep
+sudo pmset -a displaysleep 0 sleep 0
+# restart on power failure
+sudo pmset -a autorestart 1
+
+#
 # Kill Affected Applications
 #
 
