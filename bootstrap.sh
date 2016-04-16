@@ -8,4 +8,5 @@ echo "Installing Homebrew..."
 
 echo "Installing basic dependencies..."
 brew tap homebrew/services
+brew tap homebrew/cask
 brew install tmux vim git tree htop-osx nmap
